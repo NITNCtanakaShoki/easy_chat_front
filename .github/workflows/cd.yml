@@ -20,4 +20,4 @@ jobs:
             git pull origin main
             npm install
             npm run build
-            mv -r ./dist/ /home/deno/easy_chat_deno/public/
+            cp -r ./dist/* /home/deno/easy_chat_deno/public
